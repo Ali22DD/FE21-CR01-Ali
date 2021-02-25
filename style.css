@@ -1,0 +1,35 @@
+header {
+    background-color: rgb(140, 140, 0)
+}
+
+header h3 {
+    float: left;
+}
+
+header img {
+    float: right;
+    margin-top: 5px;
+}
+
+ul link {
+    display: inline-block;
+    float: right;
+    background-color: red;
+
+}
+
+ul img {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+}
+footer h3 {
+    float: center;
+}
+
+}
+footer img {
+    float: center;
+    width: 150px;
+    height: auto;
+}
