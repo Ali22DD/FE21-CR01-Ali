@@ -1,35 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+}
+
+body h1 {
+    text-align: center;
+}
 header {
-    background-color: rgb(140, 140, 0)
+    width: 100%;
+    height: 180px;
+    background-color: rgb(185, 185, 185)
 }
-
-header h3 {
-    float: left;
+.header h3{
+text-align: left;
+padding-left: 40px;
+padding-top: 50px;
 }
-
-header img {
-    float: right;
-    margin-top: 5px;
-}
-
-ul link {
-    display: inline-block;
-    float: right;
+.link {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    height: 65px;
     background-color: red;
-
 }
 
-ul img {
-    display: inline-block;
-    width: 150px;
-    height: auto;
+.link ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+    font-size: 30px;
 }
-footer h3 {
-    float: center;
+.link li {
+    display: inline-flex;
+    justify-content: flex-end;    
+}
+.link li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.logo img { 
+    display: flex; /*funktioniert leider nicht*/
+    justify-content: flex-end; /*funktioniert leider nicht*/
+    width: auto;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 80px;
+    padding: 30px;
+}
+.phone {
+        display: flex;
+        justify-content: center;
+}
+.phone img { 
+    height:350px;
+    width: 1500px;
+    object-fit: cover;
+}
+.space {
+    display: flex;
+    justify-content: space-around;
+}
+.space img {
+    width: 650px;
+    padding: 20px;
+    margin-top: 50px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 185, 185);
+    height: 170px;    
+    width: 100%;
+    margin-top: 80px;
 }
 footer img {
-    float: center;
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: 100px;
+    margin-top: 20px;  
 }
